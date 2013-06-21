@@ -1,0 +1,1744 @@
+# SIP Telephony Application.
+# Copyright (C) 2001, 2002, 2011 Free Software Foundation, Inc.
+# Simon Morlat <linphone@free.fr>, 2001.
+# yongs2 <yongs2@hotmail.com>, 2012.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: linphone 3.5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-05 12:41+0100\n"
+"PO-Revision-Date: 2012-06-28 10:40+0900\n"
+"Last-Translator: yongs2 <yongs2@hotmail.com>\n"
+"Language-Team: korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../gtk/calllogs.c:71
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../gtk/calllogs.c:74
+#, c-format
+msgid "%i second"
+msgid_plural "%i seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../gtk/calllogs.c:77
+#, c-format
+msgid ""
+"<big><b>%s</b></big>\t<small><i>%s</i>\t<i>Quality: %s</i></small>\n"
+"%s\t%s %s\t"
+msgstr ""
+
+#: ../gtk/calllogs.c:79
+msgid "n/a"
+msgstr "?"
+
+#: ../gtk/conference.c:33 ../gtk/incall_view.c:183
+msgid "Conference"
+msgstr "회의"
+
+#: ../gtk/conference.c:41
+msgid "Me"
+msgstr "나"
+
+#: ../gtk/support.c:49 ../gtk/support.c:73 ../gtk/support.c:102
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "pixmap 파일을 찾을 수 없음：%s"
+
+#: ../gtk/chat.c:27
+#, c-format
+msgid "Chat with %s"
+msgstr "%s 와 채팅"
+
+#: ../gtk/main.c:83
+msgid "log to stdout some debug information while running."
+msgstr "동작 중 디버그 정보를 화면에 출력"
+
+#: ../gtk/main.c:90
+msgid "path to a file to write logs into."
+msgstr ""
+
+#: ../gtk/main.c:97
+msgid "Start only in the system tray, do not show the main interface."
+msgstr "시작시 화면에 보이지 않고 시스템 트레이에 바로 등록한다."
+
+#: ../gtk/main.c:104
+msgid "address to call right now"
+msgstr "바로 연결할 수 있는 주소"
+
+#: ../gtk/main.c:111
+msgid "if set automatically answer incoming calls"
+msgstr "수신된 호를 자동으로 응답하도록 설정했다면"
+
+#: ../gtk/main.c:118
+msgid ""
+"Specifiy a working directory (should be the base of the installation, eg: c:"
+"\\Program Files\\Linphone)"
+msgstr "설치된 디렉토리를 지정 (예; C:\\Program Files\\Linphone)"
+
+#: ../gtk/main.c:464
+#, c-format
+msgid "Call with %s"
+msgstr "%s 와 통화"
+
+#: ../gtk/main.c:815
+#, c-format
+msgid ""
+"%s would like to add you to his contact list.\n"
+"Would you allow him to see your presence status or add him to your contact "
+"list ?\n"
+"If you answer no, this person will be temporarily blacklisted."
+msgstr ""
+"%s 가 연락처에 당신을 추가하려고 한다.\n"
+"당신의 상태 정보를 보이도록 하거나 연락처에 그를 추가하길 원하는 가?\n"
+"만약 아니라면, 그 사람은 일시적으로 블랙리스트에 포함된다."
+
+#: ../gtk/main.c:893
+#, c-format
+msgid ""
+"Please enter your password for username <i>%s</i>\n"
+" at domain <i>%s</i>:"
+msgstr "%s@%s 의 암호를 입력하시오："
+
+#: ../gtk/main.c:993
+msgid "Call error"
+msgstr "통화실패"
+
+#: ../gtk/main.c:996 ../coreapi/linphonecore.c:2406
+msgid "Call ended"
+msgstr "통화종료"
+
+#: ../gtk/main.c:999 ../coreapi/linphonecore.c:199
+msgid "Incoming call"
+msgstr "수신"
+
+#: ../gtk/main.c:1001 ../gtk/incall_view.c:292 ../gtk/main.ui.h:20
+msgid "Answer"
+msgstr "응답"
+
+#: ../gtk/main.c:1003 ../gtk/main.ui.h:29
+msgid "Decline"
+msgstr "거절"
+
+#: ../gtk/main.c:1009
+msgid "Call paused"
+msgstr "일시정지"
+
+#: ../gtk/main.c:1009
+#, c-format
+msgid "<span size=\"large\">by %s</span>"
+msgstr ""
+
+#: ../gtk/main.c:1165
+msgid "Website link"
+msgstr "웹사이트 링크"
+
+#: ../gtk/main.c:1205
+msgid "Linphone - a video internet phone"
+msgstr "Linphone - 영상 인터넷전화"
+
+#: ../gtk/main.c:1295
+#, c-format
+msgid "%s (Default)"
+msgstr "%s (기본)"
+
+#: ../gtk/main.c:1566 ../coreapi/callbacks.c:700
+#, c-format
+msgid "We are transferred to %s"
+msgstr ""
+
+#: ../gtk/main.c:1576
+msgid ""
+"No sound cards have been detected on this computer.\n"
+"You won't be able to send or receive audio calls."
+msgstr ""
+"사운드 카드를 찾을 수 없음.\n"
+"음성 호를 수신하거나 발신할 수 없음."
+
+#: ../gtk/main.c:1663
+msgid "A free SIP video-phone"
+msgstr "무료 SIP 영상 전화"
+
+#: ../gtk/friendlist.c:203
+#, fuzzy
+msgid "Add to addressbook"
+msgstr "연락처에 추가"
+
+#: ../gtk/friendlist.c:258 ../gtk/propertybox.c:296 ../gtk/contact.ui.h:3
+msgid "Name"
+msgstr "이름"
+
+#: ../gtk/friendlist.c:271
+msgid "Presence status"
+msgstr "현재상태"
+
+#: ../gtk/friendlist.c:308
+#, c-format
+msgid "Search in %s directory"
+msgstr "%s 의 연락처에서 검색"
+
+#: ../gtk/friendlist.c:568
+msgid "Invalid sip contact !"
+msgstr "잘못된 SIP 주소!"
+
+#: ../gtk/friendlist.c:613
+#, c-format
+msgid "Call %s"
+msgstr "%s 와 통화"
+
+#: ../gtk/friendlist.c:614
+#, c-format
+msgid "Send text to %s"
+msgstr "%s 에게 메시지 전송"
+
+#: ../gtk/friendlist.c:615
+#, c-format
+msgid "Edit contact '%s'"
+msgstr "%s 의 연락처 수정"
+
+#: ../gtk/friendlist.c:616
+#, c-format
+msgid "Delete contact '%s'"
+msgstr "%s 의 연락처 삭제"
+
+#: ../gtk/friendlist.c:658
+#, c-format
+msgid "Add new contact from %s directory"
+msgstr "%s 의 연락처에서 새로운 연락처를 추가"
+
+#: ../gtk/propertybox.c:302
+msgid "Rate (Hz)"
+msgstr "주파수 (Hz)"
+
+#: ../gtk/propertybox.c:308
+msgid "Status"
+msgstr "상태"
+
+#: ../gtk/propertybox.c:314
+msgid "Min bitrate (kbit/s)"
+msgstr "최소 전송량 (kbit/s)"
+
+#: ../gtk/propertybox.c:321
+msgid "Parameters"
+msgstr "설정값"
+
+#: ../gtk/propertybox.c:364 ../gtk/propertybox.c:507
+msgid "Enabled"
+msgstr "활성"
+
+#: ../gtk/propertybox.c:366 ../gtk/propertybox.c:507
+msgid "Disabled"
+msgstr "비활성"
+
+#: ../gtk/propertybox.c:553
+msgid "Account"
+msgstr "계정"
+
+#: ../gtk/propertybox.c:693
+msgid "English"
+msgstr "영어"
+
+#: ../gtk/propertybox.c:694
+msgid "French"
+msgstr "프랑스어"
+
+#: ../gtk/propertybox.c:695
+msgid "Swedish"
+msgstr "스웨덴어"
+
+#: ../gtk/propertybox.c:696
+msgid "Italian"
+msgstr "이탈리아어"
+
+#: ../gtk/propertybox.c:697
+msgid "Spanish"
+msgstr "스페인어"
+
+#: ../gtk/propertybox.c:698
+msgid "Brazilian Portugese"
+msgstr "브라질어"
+
+#: ../gtk/propertybox.c:699
+msgid "Polish"
+msgstr "포루투칼어"
+
+#: ../gtk/propertybox.c:700
+msgid "German"
+msgstr "독일어"
+
+#: ../gtk/propertybox.c:701
+msgid "Russian"
+msgstr "러시아어"
+
+#: ../gtk/propertybox.c:702
+msgid "Japanese"
+msgstr "일본어"
+
+#: ../gtk/propertybox.c:703
+msgid "Dutch"
+msgstr "덴마크어"
+
+#: ../gtk/propertybox.c:704
+msgid "Hungarian"
+msgstr "헝가리어"
+
+#: ../gtk/propertybox.c:705
+msgid "Czech"
+msgstr "체코어"
+
+#: ../gtk/propertybox.c:706
+msgid "Chinese"
+msgstr "중국어"
+
+#: ../gtk/propertybox.c:707
+msgid "Traditional Chinese"
+msgstr "중국어 번체"
+
+#: ../gtk/propertybox.c:708
+msgid "Norwegian"
+msgstr "노르웨이어"
+
+#: ../gtk/propertybox.c:765
+msgid ""
+"You need to restart linphone for the new language selection to take effect."
+msgstr "선택한 언어가 적용되려면 재시작해야 한다."
+
+#: ../gtk/propertybox.c:835
+msgid "None"
+msgstr "없음"
+
+#: ../gtk/propertybox.c:839
+msgid "SRTP"
+msgstr ""
+
+#: ../gtk/propertybox.c:845
+msgid "ZRTP"
+msgstr ""
+
+#: ../gtk/update.c:80
+#, c-format
+msgid ""
+"A more recent version is availalble from %s.\n"
+"Would you like to open a browser to download it ?"
+msgstr ""
+"%s 에서 최신 버전이 있음.\n"
+"웹브라우저를 열어서 다운받을 건가요?"
+
+#: ../gtk/update.c:91
+msgid "You are running the lastest version."
+msgstr "최신 버전을 사용 중."
+
+#: ../gtk/buddylookup.c:85
+msgid "Firstname, Lastname"
+msgstr "성과 이름"
+
+#: ../gtk/buddylookup.c:160
+msgid "Error communicating with server."
+msgstr "서버와 통신 오류"
+
+#: ../gtk/buddylookup.c:164
+msgid "Connecting..."
+msgstr "접속중..."
+
+#: ../gtk/buddylookup.c:168
+msgid "Connected"
+msgstr "접속"
+
+#: ../gtk/buddylookup.c:172
+msgid "Receiving data..."
+msgstr "데이터 수신 중..."
+
+#: ../gtk/buddylookup.c:180
+#, c-format
+msgid "Found %i contact"
+msgid_plural "Found %i contacts"
+msgstr[0] "%i 연락처를 검색"
+
+#: ../gtk/setupwizard.c:25
+msgid ""
+"Welcome !\n"
+"This assistant will help you to use a SIP account for your calls."
+msgstr ""
+"환영합니다!\n"
+"이 설정은 전화하기 위해 사용되는 SIP 계정을 설정하는 데 도움을 준다"
+
+#: ../gtk/setupwizard.c:34
+msgid "Create an account on linphone.org"
+msgstr "사용자 이름을 선택하여 계정을 생성"
+
+#: ../gtk/setupwizard.c:35
+msgid "I have already a linphone.org account and I just want to use it"
+msgstr "이미 linphone.org 계정을 가지고 있으며 그 계정을 사용할 것임"
+
+#: ../gtk/setupwizard.c:36
+msgid "I have already a sip account and I just want to use it"
+msgstr "sip 계정을 가지고 있으며 그 계정을 사용할 것임"
+
+#: ../gtk/setupwizard.c:53
+msgid "Please choose a username:"
+msgstr "사용자 이름을 선택："
+
+#: ../gtk/setupwizard.c:54
+msgid "Username:"
+msgstr "이름:"
+
+#: ../gtk/setupwizard.c:92
+#, c-format
+msgid "Checking if '%s' is available..."
+msgstr "%s 사용 가능한지 확인 중..."
+
+#: ../gtk/setupwizard.c:97 ../gtk/setupwizard.c:164
+msgid "Please wait..."
+msgstr "잠시만..."
+
+#: ../gtk/setupwizard.c:101
+msgid "Sorry this username already exists. Please try a new one."
+msgstr "죄송합니다. 이미 사용 중이므로 다른 이름으로 시도하세요"
+
+#: ../gtk/setupwizard.c:103 ../gtk/setupwizard.c:168
+msgid "Ok !"
+msgstr "성공!"
+
+#: ../gtk/setupwizard.c:106 ../gtk/setupwizard.c:171
+msgid "Communication problem, please try again later."
+msgstr "통신 오류, 잠시 후 다시 이용해 주세요"
+
+#: ../gtk/setupwizard.c:134
+msgid "Thank you. Your account is now configured and ready for use."
+msgstr "감사합니다. 계정 설정이 완료되고 사용 가능"
+
+#: ../gtk/setupwizard.c:228
+msgid "Welcome to the account setup assistant"
+msgstr "계정 설정 마법사에 오신 것을 환영"
+
+#: ../gtk/setupwizard.c:232
+msgid "Account setup assistant"
+msgstr "계정 설정 마법사"
+
+#: ../gtk/setupwizard.c:236
+msgid "Choosing a username"
+msgstr "사용자 이름을 선택："
+
+#: ../gtk/setupwizard.c:240
+msgid "Verifying"
+msgstr "검증 중"
+
+#: ../gtk/setupwizard.c:244
+msgid "Confirmation"
+msgstr "확인"
+
+#: ../gtk/setupwizard.c:249
+msgid "Creating your account"
+msgstr "계정 생성 중"
+
+#: ../gtk/setupwizard.c:253
+msgid "Now ready !"
+msgstr "사용가능"
+
+#: ../gtk/incall_view.c:69
+#, c-format
+msgid "Call #%i"
+msgstr "%s 통화"
+
+#: ../gtk/incall_view.c:127
+#, c-format
+msgid "Transfer to call #%i with %s"
+msgstr "호 #%i 를 %s 로 전환"
+
+#: ../gtk/incall_view.c:155
+msgid "Transfer"
+msgstr "전환"
+
+#: ../gtk/incall_view.c:271
+msgid "<b>Calling...</b>"
+msgstr "<b>호출중...</b>"
+
+#: ../gtk/incall_view.c:274 ../gtk/incall_view.c:482
+msgid "00::00::00"
+msgstr "00:00:00"
+
+#: ../gtk/incall_view.c:285
+msgid "<b>Incoming call</b>"
+msgstr "수신"
+
+#: ../gtk/incall_view.c:322
+msgid "good"
+msgstr "좋음"
+
+#: ../gtk/incall_view.c:324
+msgid "average"
+msgstr "보통"
+
+#: ../gtk/incall_view.c:326
+msgid "poor"
+msgstr "나쁨"
+
+#: ../gtk/incall_view.c:328
+msgid "very poor"
+msgstr "아주 나쁨"
+
+#: ../gtk/incall_view.c:330
+msgid "too bad"
+msgstr "매우 나쁨"
+
+#: ../gtk/incall_view.c:331 ../gtk/incall_view.c:347
+msgid "unavailable"
+msgstr "불가능"
+
+#: ../gtk/incall_view.c:447
+msgid "Secured by SRTP"
+msgstr "보안(SRTP)"
+
+#: ../gtk/incall_view.c:453
+#, c-format
+msgid "Secured by ZRTP - [auth token: %s]"
+msgstr "보안(ZRTP)"
+
+#: ../gtk/incall_view.c:459
+msgid "Set unverified"
+msgstr "미인증 설정"
+
+#: ../gtk/incall_view.c:459 ../gtk/main.ui.h:49
+msgid "Set verified"
+msgstr "인증 설정"
+
+#: ../gtk/incall_view.c:480
+msgid "In conference"
+msgstr "회의 중"
+
+#: ../gtk/incall_view.c:480
+msgid "<b>In call</b>"
+msgstr "<b>통화 중</b>"
+
+#: ../gtk/incall_view.c:499
+msgid "<b>Paused call</b>"
+msgstr "<b>일시정지</b>"
+
+#: ../gtk/incall_view.c:511
+#, c-format
+msgid "%02i::%02i::%02i"
+msgstr "%02i:%02i:%02i"
+
+#: ../gtk/incall_view.c:527
+msgid "<b>Call ended.</b>"
+msgstr "<b>통화종료</b>"
+
+#: ../gtk/incall_view.c:584
+msgid "Resume"
+msgstr "통화복귀"
+
+#: ../gtk/incall_view.c:591 ../gtk/main.ui.h:45
+msgid "Pause"
+msgstr "일시정지"
+
+#: ../gtk/loginframe.c:93
+#, c-format
+msgid "Please enter login information for %s"
+msgstr "%s 의 로그인 정보를 입력하세요"
+
+#: ../gtk/main.ui.h:1
+msgid "#"
+msgstr "#"
+
+#: ../gtk/main.ui.h:2
+msgid "*"
+msgstr "*"
+
+#: ../gtk/main.ui.h:3
+msgid "0"
+msgstr "0"
+
+#: ../gtk/main.ui.h:4
+msgid "1"
+msgstr "1"
+
+#: ../gtk/main.ui.h:5
+msgid "2"
+msgstr "2"
+
+#: ../gtk/main.ui.h:6
+msgid "3"
+msgstr "3"
+
+#: ../gtk/main.ui.h:7
+msgid "4"
+msgstr "4"
+
+#: ../gtk/main.ui.h:8
+msgid "5"
+msgstr "5"
+
+#: ../gtk/main.ui.h:9
+msgid "6"
+msgstr "6"
+
+#: ../gtk/main.ui.h:10
+msgid "7"
+msgstr "7"
+
+#: ../gtk/main.ui.h:11
+msgid "8"
+msgstr "8"
+
+#: ../gtk/main.ui.h:12
+msgid "9"
+msgstr "9"
+
+#: ../gtk/main.ui.h:13
+msgid "<b>Add contacts from directory</b>"
+msgstr "<b>연락처에 추가</b>"
+
+#: ../gtk/main.ui.h:14
+msgid "<b>Callee name</b>"
+msgstr "<b>수신 이름</b>"
+
+#: ../gtk/main.ui.h:15
+msgid "<b>Welcome !</b>"
+msgstr "<b>환영!</b>"
+
+#: ../gtk/main.ui.h:16
+msgid "A"
+msgstr "A"
+
+#: ../gtk/main.ui.h:17
+msgid "ADSL"
+msgstr ""
+
+#: ../gtk/main.ui.h:18
+msgid "Add contact"
+msgstr "%i 연락처 추가"
+
+#: ../gtk/main.ui.h:19
+msgid "All users"
+msgstr "모든 사용자들"
+
+#: ../gtk/main.ui.h:21
+msgid "Automatically log me in"
+msgstr "자동 기록"
+
+#: ../gtk/main.ui.h:22
+msgid "B"
+msgstr "B"
+
+#: ../gtk/main.ui.h:23 ../gtk/parameters.ui.h:21
+msgid "C"
+msgstr "C"
+
+#: ../gtk/main.ui.h:24
+#, fuzzy
+msgid "Call"
+msgstr "%s 통화"
+
+#: ../gtk/main.ui.h:25
+msgid "Call quality rating"
+msgstr "통화 품질 측정 중"
+
+#: ../gtk/main.ui.h:26
+msgid "Check _Updates"
+msgstr "업데이트 확인"
+
+#: ../gtk/main.ui.h:27
+msgid "Contacts"
+msgstr "연락처"
+
+#: ../gtk/main.ui.h:28
+msgid "D"
+msgstr "D"
+
+#: ../gtk/main.ui.h:30
+msgid "Default"
+msgstr "기본"
+
+#: ../gtk/main.ui.h:31
+msgid "Duration"
+msgstr "분수"
+
+#: ../gtk/main.ui.h:32
+msgid "Enable self-view"
+msgstr "자기화면 활성화"
+
+#: ../gtk/main.ui.h:33
+msgid "Always start video"
+msgstr "영상통화로 시작하기"
+
+#: ../gtk/main.ui.h:34
+msgid "Enter username, phone number, or full sip address"
+msgstr "사용자 이름, 전화번호 또는 SIP 주소를 입력하세요"
+
+#: ../gtk/main.ui.h:35
+msgid "Fiber Channel"
+msgstr "광채널"
+
+#: ../gtk/main.ui.h:36
+msgid "In call"
+msgstr "수신"
+
+#: ../gtk/main.ui.h:37
+msgid "Initiate a new call"
+msgstr "신규 호 초기화"
+
+#: ../gtk/main.ui.h:38
+msgid "Internet connection:"
+msgstr "인터넷연결："
+
+#: ../gtk/main.ui.h:39
+msgid "Keypad"
+msgstr "키패드"
+
+#: ../gtk/main.ui.h:40
+msgid "Login information"
+msgstr "로그인정보"
+
+#: ../gtk/main.ui.h:41
+msgid "Lookup:"
+msgstr "검색："
+
+#: ../gtk/main.ui.h:42
+msgid "My current identity:"
+msgstr "현재 내 식별자："
+
+#: ../gtk/main.ui.h:43
+msgid "Online users"
+msgstr "온라인 사용자들"
+
+#: ../gtk/main.ui.h:44
+msgid "Password"
+msgstr "암호"
+
+#: ../gtk/main.ui.h:46
+msgid "Recent calls"
+msgstr "최근 통화 목록"
+
+#: ../gtk/main.ui.h:47
+msgid "SIP address or phone number:"
+msgstr "SIP 주소 또는 전화번호："
+
+#: ../gtk/main.ui.h:48
+msgid "Search"
+msgstr "검색"
+
+#: ../gtk/main.ui.h:50
+msgid "Show debug window"
+msgstr "디버그 창 표시"
+
+#: ../gtk/main.ui.h:51
+msgid "Username"
+msgstr "사용자 이름"
+
+#: ../gtk/main.ui.h:558
+msgid "Account assistant"
+msgstr "계정 설정"
+
+#: ../gtk/main.ui.h:52
+msgid "_Help"
+msgstr "도움말"
+
+#: ../gtk/main.ui.h:53
+msgid "_Homepage"
+msgstr "홈페이지"
+
+#: ../gtk/main.ui.h:54
+msgid "_Options"
+msgstr "설정들"
+
+#: ../gtk/main.ui.h:55
+msgid "in"
+msgstr "를 다음 중"
+
+# XXX: Do not translate, this is GTK identifier
+#: ../gtk/main.ui.h:56
+msgid "label"
+msgstr "레이블"
+
+#: ../gtk/about.ui.h:1
+msgid "(C) Belledonne Communications,2010\n"
+msgstr ""
+
+#: ../gtk/about.ui.h:3
+msgid "About linphone"
+msgstr "Linphone에 대해"
+
+#: ../gtk/about.ui.h:4
+msgid "An internet video phone using the standard SIP (rfc3261) protocol."
+msgstr "표준 SIP (rfc3261) 을 사용하는 인터넷 영상 전화"
+
+#: ../gtk/about.ui.h:5
+msgid ""
+"fr: Simon Morlat\n"
+"en: Simon Morlat and Delphine Perreau\n"
+"it: Alberto Zanoni <alberto.zanoni@-NO-SPAM-PLEASE!-tiscalinet.it>\n"
+"de: Jean-Jacques Sarton <jj.sarton@-NO-SPAM-PLEASE-t-online.de>\n"
+"sv: Daniel Nylander <po@danielnylander.se>\n"
+"es: Jesus Benitez <gnelson at inMail dot sk>\n"
+"ja: YAMAGUCHI YOSHIYA <yushiya@anet.ne.jp>\n"
+"pt_BR: Rafael Caesar Lenzi <rc_lenzi@yahoo.com.br>\n"
+"pl: Robert Nasiadek <darkone@darkone.pl>\n"
+"cs: Petr Pisar <petr.pisar@atlas.cz>\n"
+"hu: anonymous\n"
+msgstr ""
+"fr: Simon Morlat\n"
+"en: Simon Morlat and Delphine Perreau\n"
+"it: Alberto Zanoni <alberto.zanoni@-NO-SPAM-PLEASE!-tiscalinet.it>\n"
+"de: Jean-Jacques Sarton <jj.sarton@-NO-SPAM-PLEASE-t-online.de>\n"
+"sv: Daniel Nylander <po@danielnylander.se>\n"
+"es: Jesus Benitez <gnelson at inMail dot sk>\n"
+"ja: YAMAGUCHI YOSHIYA <yushiya@anet.ne.jp>\n"
+"pt_BR: Rafael Caesar Lenzi <rc_lenzi@yahoo.com.br>\n"
+"pl: Robert Nasiadek <darkone@darkone.pl>\n"
+"cs: Petr Pisar <petr.pisar@atlas.cz>\n"
+"hu: anonymous\n"
+"zh_CN: Jiang Honglei <hongleij@126.com> 和 Aron Xu <happyaron.xu@gmail.com>\n"
+"ko: yongs2 <yongs2@hotmail.com>\n"
+
+#: ../gtk/contact.ui.h:1
+msgid "<b>Contact information</b>"
+msgstr "<b>연락처 정보</b>"
+
+#: ../gtk/contact.ui.h:2
+msgid "Allow this contact to see my presence status"
+msgstr "내 현재 상태를 보이도록 연락처에 허용"
+
+#: ../gtk/contact.ui.h:4
+msgid "SIP Address"
+msgstr "SIP 주소"
+
+#: ../gtk/contact.ui.h:5
+msgid "Show this contact presence status"
+msgstr "연락처의 현새 상태 보기"
+
+#: ../gtk/log.ui.h:1
+msgid "Linphone debug window"
+msgstr "Linphone 디버그"
+
+#: ../gtk/password.ui.h:1
+msgid "Linphone - Authentication required"
+msgstr "Linphone - 인증 필요"
+
+#: ../gtk/password.ui.h:2
+msgid "Password:"
+msgstr "암호："
+
+#: ../gtk/password.ui.h:3
+msgid "Please enter the domain password"
+msgstr "도메인 암호를 입력하세요"
+
+#: ../gtk/password.ui.h:4
+msgid "UserID"
+msgstr "사용자 ID"
+
+#: ../gtk/call_logs.ui.h:1
+msgid "Call back"
+msgstr "%s 다시걸기"
+
+#: ../gtk/call_logs.ui.h:2
+msgid "Call history"
+msgstr "통화 목록"
+
+#: ../gtk/call_logs.ui.h:3
+msgid "Clear all"
+msgstr ""
+
+#: ../gtk/sip_account.ui.h:1
+msgid "Configure a SIP account"
+msgstr "SIP 계정 설정"
+
+#: ../gtk/sip_account.ui.h:2
+msgid "Linphone - Configure a SIP account"
+msgstr "Linphone - SIP 계정 설정"
+
+#: ../gtk/sip_account.ui.h:3
+msgid "Looks like sip:<proxy hostname>"
+msgstr "sip:<프락시주소> 형태와 같이"
+
+#: ../gtk/sip_account.ui.h:4
+msgid "Looks like sip:<username>@<domain>"
+msgstr "sip:<사용자ID>@<도메인> 형태와 같이"
+
+#: ../gtk/sip_account.ui.h:5
+msgid "Publish presence information"
+msgstr "상태 정보를 공개"
+
+#: ../gtk/sip_account.ui.h:6
+msgid "Register"
+msgstr "등록"
+
+#: ../gtk/sip_account.ui.h:7
+msgid "Registration duration (sec):"
+msgstr "등록 주기(초)："
+
+#: ../gtk/sip_account.ui.h:8
+msgid "Route (optional):"
+msgstr "라우트 (선택)："
+
+#: ../gtk/sip_account.ui.h:9
+msgid "SIP Proxy address:"
+msgstr "SIP 프락시 주소:"
+
+#: ../gtk/sip_account.ui.h:10
+msgid "Your SIP identity:"
+msgstr "SIP 주소："
+
+#: ../gtk/sip_account.ui.h:11
+msgid "sip:"
+msgstr "sip:"
+
+#: ../gtk/chatroom.ui.h:1
+msgid "Send"
+msgstr "전송"
+
+#: ../gtk/parameters.ui.h:1
+msgid "0 stands for \"unlimited\""
+msgstr "0 은 무제한을 의미"
+
+#: ../gtk/parameters.ui.h:2
+msgid "<b>Audio</b>"
+msgstr "<b>음성</b>"
+
+#: ../gtk/parameters.ui.h:3
+msgid "<b>Bandwidth control</b>"
+msgstr "<b>대역폭 조정</b>"
+
+#: ../gtk/parameters.ui.h:4
+msgid "<b>Codecs</b>"
+msgstr "<b>코덱들</b>"
+
+#: ../gtk/parameters.ui.h:5
+msgid "<b>Default identity</b>"
+msgstr "<b>기본 식별자</b>"
+
+#: ../gtk/parameters.ui.h:6
+msgid "<b>Language</b>"
+msgstr "<b>언어</b>"
+
+#: ../gtk/parameters.ui.h:7
+msgid "<b>Level</b>"
+msgstr "<b>등급</b>"
+
+#: ../gtk/parameters.ui.h:8
+msgid "<b>NAT and Firewall</b>"
+msgstr "<b>NAT 와 방화벽</b>"
+
+#: ../gtk/parameters.ui.h:9
+msgid "<b>Network protocol and ports</b>"
+msgstr "네트워크 프로토콜과 포트들"
+
+#: ../gtk/parameters.ui.h:10
+msgid "<b>Privacy</b>"
+msgstr "<b>개인정보</b>"
+
+#: ../gtk/parameters.ui.h:11
+msgid "<b>Proxy accounts</b>"
+msgstr "<b>프락시 계정들</b>"
+
+#: ../gtk/parameters.ui.h:12
+msgid "<b>Transport</b>"
+msgstr "<b>전송 설정</b>"
+
+#: ../gtk/parameters.ui.h:13
+msgid "<b>Video</b>"
+msgstr "<b>영상</b>"
+
+#: ../gtk/parameters.ui.h:14
+msgid ""
+"<i>Adaptive rate control is a technique to dynamically guess the available "
+"bandwidth during a call.</i>"
+msgstr "적응형 속도 제어는 통화 중 사용 가능한 대역폭을 수시로 예측하는 기술입니다."
+
+#: ../gtk/parameters.ui.h:15
+msgid "ALSA special device (optional):"
+msgstr "ALSA 특별 장치(선택)："
+
+#: ../gtk/parameters.ui.h:16
+msgid "Add"
+msgstr "추가"
+
+#: ../gtk/parameters.ui.h:17
+msgid "Audio RTP/UDP:"
+msgstr "음성 RTP/UDP："
+
+#: ../gtk/parameters.ui.h:18
+msgid "Audio codecs"
+msgstr "음성 코덱들"
+
+#: ../gtk/parameters.ui.h:19
+msgid "Behind NAT / Firewall (specify gateway IP below)"
+msgstr "NAT뒤/ 방화벽 (게이트웨이 IP 지정)"
+
+#: ../gtk/parameters.ui.h:20
+msgid "Behind NAT / Firewall (use STUN to resolve)"
+msgstr "NAT뒤 / 방화벽 (STUN 사용)"
+
+#: ../gtk/parameters.ui.h:22
+msgid "CIF"
+msgstr "CIF"
+
+#: ../gtk/parameters.ui.h:23
+msgid "Capture device:"
+msgstr "녹음 장치："
+
+#: ../gtk/parameters.ui.h:24
+msgid "Codecs"
+msgstr "코덱들"
+
+#: ../gtk/parameters.ui.h:25
+msgid "Direct connection to the Internet"
+msgstr "인터넷에 직접 연결"
+
+#: ../gtk/parameters.ui.h:26
+msgid "Disable"
+msgstr "비활성"
+
+#: ../gtk/parameters.ui.h:27
+msgid "Done"
+msgstr "완료"
+
+#: ../gtk/parameters.ui.h:28
+msgid "Download speed limit in Kbit/sec:"
+msgstr "하향 속도 제한 kbit/s："
+
+#: ../gtk/parameters.ui.h:29
+msgid "Edit"
+msgstr "수정"
+
+#: ../gtk/parameters.ui.h:30
+msgid "Enable"
+msgstr "활성"
+
+#: ../gtk/parameters.ui.h:31
+msgid "Enable adaptive rate control"
+msgstr "적응형 속도 제어 활성"
+
+#: ../gtk/parameters.ui.h:32
+msgid "Enable echo cancellation"
+msgstr "음향 반향 제거 활성"
+
+#: ../gtk/parameters.ui.h:33
+msgid "Erase all passwords"
+msgstr "모든 암호 삭제"
+
+#: ../gtk/parameters.ui.h:34
+msgid "Manage SIP Accounts"
+msgstr "SIP 계정 관리"
+
+#: ../gtk/parameters.ui.h:35
+msgid "Media encryption type"
+msgstr "미디어 암호화 종류"
+
+#: ../gtk/parameters.ui.h:36
+msgid "Multimedia settings"
+msgstr "멀티미디어 설정"
+
+#: ../gtk/parameters.ui.h:37
+msgid "Network settings"
+msgstr "네트워크 설정"
+
+#: ../gtk/parameters.ui.h:38
+msgid "Playback device:"
+msgstr "음성 재생 장치："
+
+#: ../gtk/parameters.ui.h:39
+msgid "Prefered video resolution:"
+msgstr "선호 영상 해상도:"
+
+#: ../gtk/parameters.ui.h:40
+msgid "Public IP address:"
+msgstr "공인 IP 주소："
+
+#: ../gtk/parameters.ui.h:41
+msgid ""
+"Register to FONICS\n"
+"virtual network !"
+msgstr ""
+"FONICS 에 등록\n"
+"가상 네트워크!"
+
+#: ../gtk/parameters.ui.h:43
+msgid "Remove"
+msgstr "삭제"
+
+#: ../gtk/parameters.ui.h:44
+msgid "Ring device:"
+msgstr "전화벨 장치："
+
+#: ../gtk/parameters.ui.h:45
+msgid "Ring sound:"
+msgstr "벨소리："
+
+#: ../gtk/parameters.ui.h:46
+msgid "SIP (TCP)"
+msgstr "SIP (TCP)"
+
+#: ../gtk/parameters.ui.h:47
+msgid "SIP (TLS)"
+msgstr "SIP (TLS)"
+
+#: ../gtk/parameters.ui.h:48
+msgid "SIP (UDP)"
+msgstr "SIP (UDP)"
+
+#: ../gtk/parameters.ui.h:49
+msgid "Send DTMFs as SIP info"
+msgstr "DTMF를 SIP INFO로 전송"
+
+#: ../gtk/parameters.ui.h:50
+msgid "Set Maximum Transmission Unit:"
+msgstr "최대 전송 단위 (MTU) 설정:"
+
+#: ../gtk/parameters.ui.h:51
+msgid "Settings"
+msgstr "설정들"
+
+#: ../gtk/parameters.ui.h:52
+msgid "Show advanced settings"
+msgstr "고급 설정 보기"
+
+#: ../gtk/parameters.ui.h:53
+msgid "Stun server:"
+msgstr "Stun 서버:"
+
+#: ../gtk/parameters.ui.h:54
+msgid "This section defines your SIP address when not using a SIP account"
+msgstr "SIP 계정을 사용하지 않을 떄 SIP 주소를 정의한다."
+
+#: ../gtk/parameters.ui.h:55
+msgid "Upload speed limit in Kbit/sec:"
+msgstr "상향 속도 제한 kbit/s："
+
+#: ../gtk/parameters.ui.h:56
+msgid "Use IPv6 instead of IPv4"
+msgstr "IPv4 대신 IPv6 사용"
+
+#: ../gtk/parameters.ui.h:57
+msgid "User interface"
+msgstr "사용자 인터페이스"
+
+#: ../gtk/parameters.ui.h:58
+msgid "Video RTP/UDP:"
+msgstr "영상 RTP/UDP:"
+
+#: ../gtk/parameters.ui.h:59
+msgid "Video codecs"
+msgstr "영상 코덱들"
+
+#: ../gtk/parameters.ui.h:60
+msgid "Video input device:"
+msgstr "영상 입력 장치:"
+
+#: ../gtk/parameters.ui.h:61
+msgid "Your display name (eg: John Doe):"
+msgstr "표시 이름 (예; John Doe):"
+
+#: ../gtk/parameters.ui.h:62
+msgid "Your resulting SIP address:"
+msgstr "최종 SIP 주소:"
+
+#: ../gtk/parameters.ui.h:63
+msgid "Your username:"
+msgstr "사용자이름:"
+
+#: ../gtk/parameters.ui.h:64
+msgid "a sound card"
+msgstr "사운드카드"
+
+#: ../gtk/parameters.ui.h:65
+msgid "default camera"
+msgstr "기본카메라"
+
+#: ../gtk/parameters.ui.h:66
+msgid "default soundcard"
+msgstr "기본 사운드카드"
+
+#: ../gtk/buddylookup.ui.h:1
+msgid "<b>Search somebody</b>"
+msgstr "<b>인명검색</b>"
+
+#: ../gtk/buddylookup.ui.h:2
+msgid "Add to my list"
+msgstr "내 목록에 추가"
+
+#: ../gtk/buddylookup.ui.h:3
+msgid "Search contacts in directory"
+msgstr "연락처에서 검색"
+
+#: ../gtk/waiting.ui.h:1
+msgid "Linphone"
+msgstr "Linphone"
+
+#: ../gtk/waiting.ui.h:2
+msgid "Please wait"
+msgstr "잠시만..."
+
+#: ../coreapi/linphonecore.c:187
+msgid "aborted"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:190
+msgid "completed"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:193
+msgid "missed"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:198
+#, c-format
+msgid ""
+"%s at %s\n"
+"From: %s\n"
+"To: %s\n"
+"Status: %s\n"
+"Duration: %i mn %i sec\n"
+msgstr ""
+"%s @ %s\n"
+"발신：%s\n"
+"수신: %s\n"
+"상태：%s\n"
+"분수：%i 분 %i 초\n"
+
+#: ../coreapi/linphonecore.c:199
+msgid "Outgoing call"
+msgstr "발신"
+
+#: ../coreapi/linphonecore.c:1088
+msgid "Ready"
+msgstr "대기"
+
+#: ../coreapi/linphonecore.c:1831
+msgid "Looking for telephone number destination..."
+msgstr "착신지 전화번호를 찾고 있는 중..."
+
+#: ../coreapi/linphonecore.c:1834
+msgid "Could not resolve this number."
+msgstr "이 번호를 해석 불가"
+
+#: ../coreapi/linphonecore.c:1878
+msgid ""
+"Could not parse given sip address. A sip url usually looks like sip:"
+"user@domain"
+msgstr ""
+"입력한 SIP 주소를 해석할 수 없음. SIP url은 반드시 다음 형태를 따라야 함\n"
+"sip:사용자ID@도메인"
+
+#: ../coreapi/linphonecore.c:2025
+msgid "Contacting"
+msgstr "연결중"
+
+#: ../coreapi/linphonecore.c:2032
+msgid "Could not call"
+msgstr "통화 연결 실패"
+
+#: ../coreapi/linphonecore.c:2140
+msgid "Sorry, we have reached the maximum number of simultaneous calls"
+msgstr ""
+
+#: ../coreapi/linphonecore.c:2270
+msgid "Modifying call parameters..."
+msgstr ""
+
+#: ../coreapi/linphonecore.c:2366
+msgid "Connected."
+msgstr "연결"
+
+#: ../coreapi/linphonecore.c:2389
+msgid "Call aborted"
+msgstr "통화 취소"
+
+#: ../coreapi/linphonecore.c:2530
+msgid "Could not pause the call"
+msgstr "일시정지할 수 없음"
+
+#: ../coreapi/linphonecore.c:2535
+msgid "Pausing the current call..."
+msgstr "일시 정지 중..."
+
+#: ../coreapi/misc.c:147
+msgid ""
+"Your computer appears to be using ALSA sound drivers.\n"
+"This is the best choice. However the pcm oss emulation module\n"
+"is missing and linphone needs it. Please execute\n"
+"'modprobe snd-pcm-oss' as root to load it."
+msgstr ""
+"ALSA 사운드 드라이버를 사용 중임.\n"
+"아주 좋은 선택이지만, linphone이 필요한 pcm oss 에뮬레이션 모듈이 빠져 있음.\n"
+"root 계정에서 'modprobe snd-pcm-oss' 명령 실행"
+
+#: ../coreapi/misc.c:150
+msgid ""
+"Your computer appears to be using ALSA sound drivers.\n"
+"This is the best choice. However the mixer oss emulation module\n"
+"is missing and linphone needs it. Please execute\n"
+" 'modprobe snd-mixer-oss' as root to load it."
+msgstr ""
+"ALSA 사운드 드라이버를 사용 중임.\n"
+"아주 좋은 선택이지만, linphone이 필요한 mixer oss 에뮬레이션 모듈이 빠져 있음.\n"
+"root 계정에서 'modprobe snd-mixer-oss' 명령 실행"
+
+#: ../coreapi/misc.c:478
+msgid "Stun lookup in progress..."
+msgstr "Stun 검색 중..."
+
+#: ../coreapi/friend.c:33
+msgid "Online"
+msgstr "온라인"
+
+#: ../coreapi/friend.c:36
+msgid "Busy"
+msgstr "바쁨"
+
+#: ../coreapi/friend.c:39
+msgid "Be right back"
+msgstr "호출중"
+
+#: ../coreapi/friend.c:42
+msgid "Away"
+msgstr "자리비움"
+
+#: ../coreapi/friend.c:45
+msgid "On the phone"
+msgstr "통화중"
+
+#: ../coreapi/friend.c:48
+msgid "Out to lunch"
+msgstr "식사중"
+
+#: ../coreapi/friend.c:51
+msgid "Do not disturb"
+msgstr "방해금지"
+
+#: ../coreapi/friend.c:54
+msgid "Moved"
+msgstr "자리이동"
+
+#: ../coreapi/friend.c:57
+msgid "Using another messaging service"
+msgstr "다른 메시징 서비스 사용 중"
+
+#: ../coreapi/friend.c:60
+msgid "Offline"
+msgstr "오프라인"
+
+#: ../coreapi/friend.c:63
+msgid "Pending"
+msgstr "대기중"
+
+#: ../coreapi/friend.c:66
+msgid "Unknown-bug"
+msgstr "미확인 버그"
+
+#: ../coreapi/proxy.c:192
+msgid ""
+"The sip proxy address you entered is invalid, it must start with \"sip:\" "
+"followed by a hostname."
+msgstr "SIP 프락시 주소가 잘못되었음. 반드시 sip: 으로 시작해야 함."
+
+#: ../coreapi/proxy.c:198
+msgid ""
+"The sip identity you entered is invalid.\n"
+"It should look like sip:username@proxydomain, such as sip:alice@example.net"
+msgstr ""
+"SIP 식별자가 잘못되었음.\n"
+"다음과 같은 형태가 되어야 함. ( sip:username@proxydomain )"
+
+#: ../coreapi/proxy.c:690
+#, c-format
+msgid "Could not login as %s"
+msgstr "%s 로 로그인 실패"
+
+#: ../coreapi/callbacks.c:206
+msgid "is contacting you"
+msgstr "연결 시도 중"
+
+#: ../coreapi/callbacks.c:207
+msgid " and asked autoanswer."
+msgstr " 자동 응답을 문의"
+
+#: ../coreapi/callbacks.c:207
+msgid "."
+msgstr "."
+
+#: ../coreapi/callbacks.c:266
+msgid "Remote ringing."
+msgstr "착신측 호출중"
+
+#: ../coreapi/callbacks.c:282
+msgid "Remote ringing..."
+msgstr "착신측 호출중"
+
+#: ../coreapi/callbacks.c:293
+msgid "Early media."
+msgstr ""
+
+#: ../coreapi/callbacks.c:331
+#, c-format
+msgid "Call with %s is paused."
+msgstr "%s 와의 통화가 일시정지"
+
+#: ../coreapi/callbacks.c:342
+#, c-format
+msgid "Call answered by %s - on hold."
+msgstr ""
+
+#: ../coreapi/callbacks.c:357
+msgid "Call resumed."
+msgstr "통화재개"
+
+#: ../coreapi/callbacks.c:362
+#, c-format
+msgid "Call answered by %s."
+msgstr ""
+
+#: ../coreapi/callbacks.c:432
+msgid "We are being paused..."
+msgstr ""
+
+#: ../coreapi/callbacks.c:436
+msgid "We have been resumed..."
+msgstr ""
+
+#: ../coreapi/callbacks.c:441
+msgid "Call has been updated by remote..."
+msgstr ""
+
+#: ../coreapi/callbacks.c:473
+msgid "Call terminated."
+msgstr "통화종료"
+
+#: ../coreapi/callbacks.c:480
+msgid "User is busy."
+msgstr "사용자 통화중"
+
+#: ../coreapi/callbacks.c:481
+msgid "User is temporarily unavailable."
+msgstr "일시적으로 불가능"
+
+#. char *retrymsg=_("%s. Retry after %i minute(s).");
+#: ../coreapi/callbacks.c:483
+msgid "User does not want to be disturbed."
+msgstr "방해 금지 상태"
+
+#: ../coreapi/callbacks.c:484
+msgid "Call declined."
+msgstr "통화 거절"
+
+#: ../coreapi/callbacks.c:496
+msgid "No response."
+msgstr "무응답"
+
+#: ../coreapi/callbacks.c:500
+msgid "Protocol error."
+msgstr "프로토콜 에러"
+
+#: ../coreapi/callbacks.c:516
+msgid "Redirected"
+msgstr "통화 재지향"
+
+#: ../coreapi/callbacks.c:526
+msgid "Not found"
+msgstr "발견못함"
+
+#: ../coreapi/callbacks.c:551
+msgid "No common codecs"
+msgstr "공통 코덱 없음"
+
+#: ../coreapi/callbacks.c:557
+msgid "Call failed."
+msgstr "통화 실패"
+
+#: ../coreapi/callbacks.c:631
+#, c-format
+msgid "Registration on %s successful."
+msgstr "%s 에 등록 성공"
+
+#: ../coreapi/callbacks.c:632
+#, c-format
+msgid "Unregistration on %s done."
+msgstr "%s 에 등록 해제"
+
+#: ../coreapi/callbacks.c:648
+msgid "no response timeout"
+msgstr ""
+
+#: ../coreapi/callbacks.c:651
+#, c-format
+msgid "Registration on %s failed: %s"
+msgstr "%s 에 등록 실패 : %s"
+
+#: ../coreapi/sal_eXosip2.c:873 ../coreapi/sal_eXosip2.c:875
+msgid "Authentication failure"
+msgstr "인증 실패"
+
+#: ../coreapi/linphonecall.c:128
+#, c-format
+msgid "Authentication token is %s"
+msgstr "인증 토큰은 %s"
+
+#: ../coreapi/linphonecall.c:1560
+#, c-format
+msgid "You have missed %i call."
+msgid_plural "You have missed %i calls."
+msgstr[0] "%i 의 부재중 전화"
+
+#~ msgid "Unmute"
+#~ msgstr "음소거 해제"
+
+#~ msgid "<b>Contact list</b>"
+#~ msgstr "<b>연락처 목록</b>"
+
+#~ msgid "Audio & video"
+#~ msgstr "음성과 영상"
+
+#~ msgid "Audio only"
+#~ msgstr "음성만"
+
+#~ msgid "Duration:"
+#~ msgstr "분수："
+
+#~ msgid "_Call history"
+#~ msgstr "통화목록"
+
+#~ msgid "_Linphone"
+#~ msgstr "_Linphone"
+
+#~ msgid "Register at startup"
+#~ msgstr "시작시 등록"
+
+#~ msgid "<b>Ports</b>"
+#~ msgstr "<b>포트</b>"
+
+#~ msgid "ITU-G.711 alaw encoder"
+#~ msgstr "ITU-G.711 alaw 인코더"
+
+#~ msgid "ITU-G.711 alaw decoder"
+#~ msgstr "ITU-G.711 alaw 딬더"
+
+#~ msgid "Alsa sound source"
+#~ msgstr "Alsa 사운드소스"
+
+#~ msgid "Alsa sound output"
+#~ msgstr "Alsa 사운드 출력"
+
+#~ msgid "Sound capture filter for MacOS X Audio Queue Service"
+#~ msgstr "MacOS X 오디오 큐 서비스를 위한 사운드 캡쳐 필터"
+
+#~ msgid "Sound playback filter for MacOS X Audio Queue Service"
+#~ msgstr "MacOS X 오디오 큐 서비스를 위한 사운드 재생 필터"
+
+#~ msgid "DTMF generator"
+#~ msgstr "DTMF 生成器"
+
+#~ msgid "The GSM full-rate codec"
+#~ msgstr "GSM 全速?解?器"
+
+#~ msgid "The GSM codec"
+#~ msgstr "GSM ?解?器"
+
+#~ msgid "Sound capture filter for MacOS X Audio Unit"
+#~ msgstr "MacOS X 音??列服?音??入??器"
+
+#~ msgid "Sound playback filter for MacOS X Audio Unit"
+#~ msgstr "MacOS X 音??列服?音?回放??器"
+
+#~ msgid "Raw files and wav reader"
+#~ msgstr "原始文件和 Wav ?取器"
+
+#~ msgid "Wav file recorder"
+#~ msgstr "Wav 文件??器"
+
+#~ msgid "A filter that send several inputs to one output."
+#~ msgstr "?多??入?送至???出。"
+
+#~ msgid "Audio resampler"
+#~ msgstr "音?重采?"
+
+#~ msgid "RTP output filter"
+#~ msgstr "RTP ?出??器"
+
+#~ msgid "RTP input filter"
+#~ msgstr "RTP ?入??器"
+
+#~ msgid "The free and wonderful speex codec"
+#~ msgstr "?秀的自由?件?解?器 Speex"
+
+#~ msgid "A filter that controls and measure sound volume"
+#~ msgstr "控制和??音量的??器"
+
+#~ msgid "A video4linux compatible source filter to stream pictures."
+#~ msgstr "用于?像流的 video4linux 兼容源??器"
+
+#~ msgid "A filter to grab pictures from Video4Linux2-powered cameras"
+#~ msgstr "用于? Video4Linux2 ??的?像??取?像的??器"
+
+#~ msgid "A filter that outputs a static image."
+#~ msgstr "?出???像的??器"
+
+#~ msgid "A pixel format converter"
+#~ msgstr "像素格式??器"
+
+#~ msgid "A video size converter"
+#~ msgstr "??尺寸??器"
+
+#~ msgid "a small video size converter"
+#~ msgstr "小的??尺寸??器"
+
+#~ msgid "Echo canceller using speex library"
+#~ msgstr "使用 Speex ?的回?抑制器"
+
+#~ msgid "A filter that reads from input and copy to its multiple outputs."
+#~ msgstr "用于?取?入??制到多??出的??器"
+
+#~ msgid "The theora video encoder from xiph.org"
+#~ msgstr "?自 xiph.org 的 Theora ????器"
+
+#~ msgid "The open-source and royalty-free 'theora' video codec from xiph.org"
+#~ msgstr "?自 xiph.org 的?源的自由?件?解?器 Theora"
+
+#~ msgid "The theora video decoder from xiph.org"
+#~ msgstr "?自 xiph.org 的 Theora ??解?器"
+
+#~ msgid "ITU-G.711 ulaw encoder"
+#~ msgstr "ITU-G.711 ulaw ??器"
+
+#~ msgid "ITU-G.711 ulaw decoder"
+#~ msgstr "ITU-G.711 ulaw 解?器"
+
+#~ msgid "A H.263 decoder using ffmpeg library"
+#~ msgstr "使用 ffmpeg ?的 H.263 解?器"
+
+#~ msgid "A MPEG4 decoder using ffmpeg library"
+#~ msgstr "使用 ffmpeg ?的 MPEG4 解?器"
+
+#~ msgid "A RTP/JPEG decoder using ffmpeg library"
+#~ msgstr "使用 ffmpeg ?的 RTP/JPEG 解?器"
+
+#~ msgid "A MJPEG decoder using ffmpeg library"
+#~ msgstr "使用 ffmpeg ?的 MJPEG 解?器"
+
+#~ msgid "A snow decoder using ffmpeg library"
+#~ msgstr "使用 ffmpeg ?的 snow 解?器"
+
+#~ msgid "A video H.263 encoder using ffmpeg library."
+#~ msgstr "使用 ffmpeg ?的 H.263 ??器"
+
+#~ msgid ""
+#~ "A video H.263 encoder using ffmpeg library. It is compliant with old "
+#~ "RFC2190 spec."
+#~ msgstr "使用 ffmpeg ?的 H.263 ????器，符合?的 RFC2190"
+
+#~ msgid "A video MPEG4 encoder using ffmpeg library."
+#~ msgstr "使用 ffmpeg ?的 MPEG4 ????器"
+
+#~ msgid "A video snow encoder using ffmpeg library."
+#~ msgstr "使用 ffmpeg ?的 snow ??器"
+
+#~ msgid "A RTP/MJPEG encoder using ffmpeg library."
+#~ msgstr "使用 ffmpeg ?的 RTP/MJPEG ??器"
+
+#~ msgid ""
+#~ "A video H.263 encoder using ffmpeg library, compliant with old RFC2190 "
+#~ "spec."
+#~ msgstr "使用 ffmpeg ?的 H.263 ??器，符合?的 RFC2190"
+
+#~ msgid ""
+#~ "The snow codec is royalty-free and is open-source. \n"
+#~ "It uses innovative techniques that makes it one of most promising video "
+#~ "codec. It is implemented within the ffmpeg project.\n"
+#~ "However it is under development, quite unstable and compatibility with "
+#~ "other versions cannot be guaranteed."
+#~ msgstr ""
+#~ "Snow ?解?器是?源的自由?件。\n"
+#~ "?新科技使 Snow 成??今最有希望的???解?器。?在 ffmpeg ?目???。\n"
+#~ "然而?仍?于??中，?定性和?其他版本的兼容性?无法保?。"
+
+#~ msgid "A MJPEG encoder using ffmpeg library."
+#~ msgstr "使用 ffmpeg ?的 MJPEG ??器"
+
+#~ msgid "A SDL-based video display"
+#~ msgstr "通用???示"
+
+#~ msgid "ICE filter"
+#~ msgstr "ICE ??器"
+
+#~ msgid "A webcam grabber based on directshow."
+#~ msgstr "使用 DirectShow 的?像??取器"
+
+#~ msgid "Sound capture filter for MacOS X Audio Unit Service"
+#~ msgstr "MacOS X 音??列服?音??入??器"
+
+#~ msgid "Sound playback filter for MacOS X Audio Unit Service"
+#~ msgstr "MacOS X 音??列服?音?回放??器"
+
+#~ msgid "Sound capture filter for Android"
+#~ msgstr "OSS ??的音??入??器"
+
+#~ msgid "Sound playback filter for Android"
+#~ msgstr "OSS ??的音?回放??器"
+
+#~ msgid "A filter that captures Android video."
+#~ msgstr "控制和??音量的??器"
+
+#~ msgid ""
+#~ "Your machine appears to be connected to an IPv6 network. By default "
+#~ "linphone always uses IPv4. Please update your configuration if you want "
+#~ "to use IPv6"
+#~ msgstr ""
+#~ "?的机器有 IPv6 ???接。Linphone 默?使用IPv4，如果?希望使用 IPv6 ?更"
+#~ "?配置。"
+
+#~ msgid "Sound capture filter for MacOS X Core Audio drivers"
+#~ msgstr "MacOS X 核心?音??音??入??器"
+
+#~ msgid "Sound playback filter for MacOS X Core Audio drivers"
+#~ msgstr "MacOS X 核心?音??音?回放??器"
+
+#~ msgid "Incoming call from %s"
+#~ msgstr "?自 %s 的呼叫"
+
+#~ msgid "Assistant"
+#~ msgstr "配置向?"
+
+#~ msgid "Call Details"
+#~ msgstr "呼叫?情"
+
+#~ msgid "Show debug messages"
+#~ msgstr "?示??信息"
+
+#~ msgid "Start call"
+#~ msgstr "?始呼叫"
+
+#~ msgid "Terminate call"
+#~ msgstr "?止呼叫"
+
+#~ msgid "_Modes"
+#~ msgstr "模式(_M)"
+
+#~ msgid "Created by Simon Morlat\n"
+#~ msgstr "由 Simon Morlat ?建\n"
+
+#~ msgid "Accept"
+#~ msgstr "接受"
+
+#~ msgid "Incoming call from"
+#~ msgstr "?自"
+
+#~ msgid "Linphone - Incoming call"
+#~ msgstr "Linphone - 呼入"
+
+#~ msgid "default soundcard\n"
+#~ msgstr "默???\n"
+
+#~ msgid ""
+#~ "Remote end seems to have disconnected, the call is going to be closed."
+#~ msgstr "?方???接，通??止。"
+
+#~ msgid "Sorry, having multiple simultaneous calls is not supported yet !"
+#~ msgstr "抱?, ?不支持??多路呼叫!"
