@@ -273,8 +273,7 @@ void linphone_call_make_local_media_description(LinphoneCore *lc, LinphoneCall *
 		rate = payload_type_get_rate(pt);
 		if((bUseRfc2833 == TRUE) && (rate == 8000) && (bIsSetTe8k == FALSE))
 		{	// RFC2833 을 사용한다고 설정했을 때에만 telephone-event 를 추가한다.
-			// tept=payload_type_clone(rtp_profile_get_payload_from_mime(lc->default_profile,"telephone-event"));
-			tept = payload_type_clone(rtp_profile_find_payload(&av_profile,"telephone-event", rate, pt->channels));
+			tept = payload_type_clone(rtp_profile_find_payload(lc->default_profile,"telephone-event", rate, pt->channels));
 			if(tept != NULL)
 			{
 				l = ms_list_append(l, tept);
@@ -288,8 +287,7 @@ void linphone_call_make_local_media_description(LinphoneCore *lc, LinphoneCall *
 		}
 		else if((bUseRfc2833 == TRUE) && (rate == 16000) && (bIsSetTe16k == FALSE))
 		{	// RFC2833 을 사용한다고 설정했을 때에만 telephone-event 를 추가한다.
-			// tept=payload_type_clone(rtp_profile_get_payload_from_mime(lc->default_profile,"telephone-event"));
-			tept = payload_type_clone(rtp_profile_find_payload(&av_profile,"telephone-event", rate, pt->channels));
+			tept = payload_type_clone(rtp_profile_find_payload(lc->default_profile,"telephone-event", rate, pt->channels));
 			if(tept != NULL)
 			{
 				l = ms_list_append(l, tept);

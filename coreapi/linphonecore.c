@@ -608,6 +608,9 @@ static void sip_config_read(LinphoneCore *lc)
 	sal_reuse_authorization(lc->sal, lp_config_get_int(lc->config,"sip","reuse_authorization",0));
 	sal_expire_old_registration_contacts(lc->sal,lp_config_get_int(lc->config,"sip","expire_old_registration_contacts",0));
 
+	tmp=lp_config_get_int(lc->config,"sip","use_info",0);
+	linphone_core_set_use_info_for_dtmf(lc,tmp);
+
 	tmp=lp_config_get_int(lc->config,"sip","use_rfc2833",0);
 	linphone_core_set_use_rfc2833_for_dtmf(lc,tmp);
 
@@ -5176,8 +5179,6 @@ void sip_config_uninit(LinphoneCore *lc)
 	lp_config_set_int(lc->config,"sip","guess_hostname",config->guess_hostname);
 	lp_config_set_string(lc->config,"sip","contact",config->contact);
 	lp_config_set_int(lc->config,"sip","inc_timeout",config->inc_timeout);
-	lp_config_set_int(lc->config,"sip","use_info",config->use_info);
-	lp_config_set_int(lc->config,"sip","use_rfc2833",config->use_rfc2833);
 	lp_config_set_int(lc->config,"sip","in_call_timeout",config->in_call_timeout);
 	lp_config_set_int(lc->config,"sip","delayed_timeout",config->delayed_timeout);
 	lp_config_set_int(lc->config,"sip","use_ipv6",config->ipv6_enabled);
